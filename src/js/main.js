@@ -3,6 +3,9 @@
 const inputE1 = document.querySelector('input');
 
 //add to focus input
-document.addEventListener('keypress', function () {
-  consol.console.log('wah');
+document.addEventListener('keypress', function (event) {
+  if (event.key === '/') {
+    event.preventDefault();
+    consol.console.log(input.key);
+  }
 });
