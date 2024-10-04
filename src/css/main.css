@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+
+* {
+  font-family: 'Moderustic', sans-serif;
+}
+
+body {
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
